@@ -1,117 +1,113 @@
 # FitShow 🏋️
 
-> A modern cloud-based fitness club management platform powered by Cloudflare Workers.
+> سامانه مدرن مدیریت باشگاه ورزشی مبتنی بر Cloudflare Workers
 
-🌐 **Languages**
+🌐 **زبان‌ها**
 
-- 🇺🇸 English (Current)
-- 🇮🇷 [فارسی](README.fa.md)
-
----
-
-## Overview
-
-FitShow is a modern fitness club management system designed for personal trainers, fitness clubs, and athletes. It provides an easy way to manage members, publish workout and nutrition plans, communicate with clients, and integrate AI into the coaching workflow.
+- 🇮🇷 فارسی (نسخه فعلی)
+- 🇺🇸 [English](README.md)
 
 ---
 
-## Main Features
+# معرفی
 
-### 👨‍🏫 Coach Panel
-
-- Coach dashboard
-- Student management
-- Create, edit and delete students
-- Search students
-- Activate/Deactivate students
-- Coach private notes
-- Publish workout programs
-- Publish nutrition programs
-- AI-assisted program creation
-- Wallet request management
-- Notifications
-- Built-in chat
-- Club settings
-- Bank account management
-- Workout pricing
-- Nutrition pricing
+FitShow یک سامانه مدرن مدیریت باشگاه‌های ورزشی است که برای مربیان، باشگاه‌ها و ورزشکاران طراحی شده است. این سامانه امکان مدیریت شاگردان، انتشار برنامه‌های تمرینی و غذایی، ارتباط با شاگردان و استفاده از هوش مصنوعی برای ساخت برنامه را فراهم می‌کند.
 
 ---
 
-### 🧑‍💪 Athlete Panel
+# امکانات پنل مربی
 
-- Modern dashboard
-- Welcome page
-- Wallet balance
-- Workout programs
-- Nutrition programs
-- Notifications
-- Chat with coach
-- Request new workout program
-- Request nutrition program
-- Wallet recharge requests
-- User profile
-
----
-
-### 💳 Wallet System
-
-- Wallet balance
-- Recharge requests
-- Manual payment verification
-- Coach approval
-- Purchase workout plans
-- Purchase nutrition plans
+- داشبورد حرفه‌ای
+- مدیریت شاگردان
+- ثبت، ویرایش و حذف شاگرد
+- جستجوی شاگرد
+- فعال یا غیرفعال کردن شاگرد
+- یادداشت خصوصی مربی
+- انتشار برنامه تمرینی
+- انتشار برنامه غذایی
+- ساخت برنامه با کمک هوش مصنوعی
+- مدیریت درخواست‌های شارژ کیف پول
+- اعلان‌ها
+- گفتگوی مربی و شاگرد
+- تنظیمات باشگاه
+- ثبت اطلاعات کارت بانکی
+- تعیین قیمت برنامه تمرینی
+- تعیین قیمت برنامه غذایی
 
 ---
 
-### 🤖 AI Integration
+# امکانات پنل شاگرد
 
-- Generate AI prompt automatically
-- Fill prompt using athlete information
-- Copy prompt with one click
-- Paste AI-generated HTML
-- Beautiful HTML rendering
-- Safe HTML sanitization
-- Premium workout cards
-
----
-
-### 💬 Chat
-
-- Coach ↔ Athlete messaging
-- Read status
-- Conversation history
+- داشبورد مدرن
+- صفحه خوش‌آمدگویی
+- مشاهده موجودی کیف پول
+- مشاهده برنامه تمرینی
+- مشاهده برنامه غذایی
+- مشاهده اعلان‌ها
+- گفتگو با مربی
+- درخواست ساخت برنامه
+- درخواست برنامه غذایی
+- ارسال درخواست شارژ کیف پول
+- مدیریت پروفایل
 
 ---
 
-### 🔔 Notifications
+# کیف پول
 
-- New workout
-- New nutrition plan
-- Wallet approved
-- Wallet rejected
-- New messages
-- Program requests
-- Program updates
+- کیف پول اختصاصی
+- درخواست شارژ
+- تأیید دستی توسط مربی
+- خرید برنامه تمرینی
+- خرید برنامه غذایی
 
 ---
 
-### 🎨 User Interface
+# هوش مصنوعی
 
-- Premium UI
-- Dark Mode
-- Light Mode
-- Mobile First
-- Responsive
-- Glassmorphism
-- Beautiful animations
-- Persian typography
-- Bottom Navigation
+- تولید خودکار پرامپت
+- تکمیل اطلاعات شاگرد داخل پرامپت
+- کپی سریع پرامپت
+- دریافت خروجی HTML از هوش مصنوعی
+- نمایش گرافیکی برنامه‌ها
+- پاک‌سازی HTML برای امنیت
 
 ---
 
-## Technologies
+# گفتگو
+
+- پیام‌رسان داخلی
+- گفتگوی مربی و شاگرد
+- نمایش وضعیت خوانده شدن پیام‌ها
+- تاریخچه گفتگو
+
+---
+
+# اعلان‌ها
+
+- برنامه جدید
+- برنامه غذایی جدید
+- تأیید یا رد شارژ کیف پول
+- پیام جدید
+- درخواست برنامه
+- بروزرسانی برنامه‌ها
+
+---
+
+# طراحی رابط کاربری
+
+- طراحی حرفه‌ای
+- دارک مود
+- لایت مود
+- کاملاً واکنش‌گرا
+- طراحی Mobile First
+- افکت Glassmorphism
+- انیمیشن‌های روان
+- فونت فارسی زیبا
+- منوی شناور پایین صفحه
+
+---
+
+# فناوری‌ها
 
 - Cloudflare Workers
 - Cloudflare D1
@@ -122,15 +118,14 @@ FitShow is a modern fitness club management system designed for personal trainer
 
 ---
 
-## Project Status
+# وضعیت پروژه
 
-🚧 Under Active Development
-
-More features will be added in future releases.
+🚧 پروژه در حال توسعه است و قابلیت‌های بیشتری در نسخه‌های آینده اضافه خواهند شد.
 
 ---
 
-## License
+# مجوز
 
-Copyright © 2026 FitShow.
-All Rights Reserved.
+Copyright © 2026 FitShow
+
+تمام حقوق محفوظ است.
